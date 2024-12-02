@@ -1,61 +1,132 @@
 <!DOCTYPE html>
-
-<html lang="eng">
-    <head>
-        <meta charset="UTP-8">
-        <title>My Resume</title>
-    </head>
-
-    <body>
-        <!--<span style="background-color: #FFFF00">Your highlighted text here.</span> highlighting the text-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume - Arturs Smelkovs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 2rem;
+            background-color: #4CAF50;
+            color: white;
+        }
+        header img {
+            border-radius: 50%;
+            margin: 1rem 0;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h3 {
+            color: #4CAF50;
+        }
+        ul, p {
+            margin: 1rem 0;
+        }
+        ul {
+            padding-left: 1.5rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
         <h1>Arturs Smelkovs</h1>
-        <img src="capture3.JPG" alt="Photo of Arthur Smelkovs">
-        <hr>
-        <hr>
-        <h3>Summary</h3>
-        <p>Analytical and ambitious, keen to learn new skills and highly motivated to succeed. High standard of personal presentation. Pro-active and excellent ability to work under pressure. Able to focus clearly on the task in hand, show own initiative and solve the problems. Also, I can take instruction from all levels and build up good working relationships with all colleagues. I am flexible, reliable and possess perfect time keeping skills.</p>
-        <hr>
+        <img src="capture3.JPG" alt="Photo of Arturs Smelkovs" width="150" height="150">
+        <p>Analytical and ambitious | IT Engineer | Eager Learner</p>
+    </header>
 
+    <section>
+        <h3>Summary</h3>
+        <p>
+            Analytical and ambitious, keen to learn new skills and highly motivated to succeed. High standard of personal presentation. 
+            Proactive and excellent at working under pressure. Able to focus clearly on tasks, show initiative, and solve problems. 
+            I am flexible, reliable, and possess excellent timekeeping skills.
+        </p>
+    </section>
+
+    <section>
         <h3>Education</h3>
         <ul>
-            <li>Nottingham College/BTEC level 2 in Informaton Technology</li>
-            <li>Nottingham College/HNC Level 4 in Computing and Software Development</li>
-            <li>Nottingham College/HND Level 5 in Computing and Networking</li>
+            <li>BTEC Level 2 in Information Technology, Nottingham College</li>
+            <li>HNC Level 4 in Computing and Software Development, Nottingham College</li>
+            <li>HND Level 5 in Computing and Networking, Nottingham College</li>
         </ul>
-        <hr>
-        
+    </section>
 
+    <section>
         <h3>Work Experience</h3>
-        <un>
-            <strong><li>2018/2019 - IT Engineer DHL</li></strong>
-            <P>Providing a 1st an 2nd line Helpdesk support for the large infrastructure. This is one of the biggest logistics company in the world. The role itself involved a variety of tasks and duties. The primary duties of IT Engineer involved for providing support to different departments such as offices with the over 1000+ workstations. Most of the time required to deal with different issues and incidents which were raised via web, telephone, email, web portal and face to face. Some issues were not the same as I had to deal with different type of incidents such as hardware, software, and networking. </P>
-            <strong><li>2019 - IT Support Technician/Engineer at Amazon</li></strong>
-            <p>Providing 1st and 2nd Line Support via telephone and face-to-face for the large fulfilment centre/infrastructure. This is a technology driven company and one of the fast growing companies in the world. </p>
-        </un>
-        <hr>
+        <ul>
+            <li><strong>2018/2019 - IT Engineer, DHL</strong>
+                <p>
+                    Provided 1st and 2nd line helpdesk support for a large infrastructure at one of the biggest logistics companies in the world. 
+                    Supported over 1000+ workstations and resolved various issues, including hardware, software, and networking incidents.
+                </p>
+            </li>
+            <li><strong>2019 - IT Support Technician/Engineer, Amazon</strong>
+                <p>
+                    Delivered 1st and 2nd line support for a large fulfillment center infrastructure. Supported operations in a technology-driven, fast-growing environment.
+                </p>
+            </li>
+        </ul>
+    </section>
 
+    <section>
         <h3>Skills</h3>
-
         <ul>
-            <li>AZ-900 Microsoft Azure Fundamentals 2024</li>
+            <li>AZ-900 Microsoft Azure Fundamentals (2024)</li>
             <li>The Complete 2024 Web Development Bootcamp (Udemy)</li>
-            <li>Coding Traineeship by IT Career switch 2025</li>
+            <li>Coding Traineeship by IT Career Switch (2025)</li>
         </ul>
-        <hr>
+    </section>
 
-        <h3>Other</h3>
-
+    <section>
+        <h3>Additional Information</h3>
         <ul>
-        <li><a href="./hobbies&interests.html">Hobbies&Interests</a></li>
-        <li><a href="./Contactme.html">Contact Me</a></li>
-        <li><a href="https://arthursmelkovs92.github.io/html-portfolio/">Github website</a></li>
+            <li><a href="./hobbies&interests.html">Hobbies & Interests</a></li>
+            <li><a href="./Contactme.html">Contact Me</a></li>
+            <li><a href="https://arthursmelkovs92.github.io/html-portfolio/">GitHub Website</a></li>
         </ul>
-        <hr>
-    </body>
-
+    </section>
 
     <footer>
         <p>© 2024 Arturs Smelkovs. All rights reserved.</p>
     </footer>
-
+</body>
 </html>
